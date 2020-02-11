@@ -1,3 +1,5 @@
+# Glossary
+
 ### Anti-corruption layer
 
 ### Application programming interface (API)
