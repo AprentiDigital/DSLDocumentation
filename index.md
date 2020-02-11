@@ -1,4 +1,8 @@
-# Introduction
+---
+layout: default
+title: Introduction
+nav_order: 1
+---
 
 ## Automated Testing with a Domain-Specific Language (DSL)
 
