@@ -1,3 +1,5 @@
+# Introduction
+
 ## Automated Testing with a Domain-Specific Language (DSL)
 
 ### What does this documentation cover?
