@@ -22,8 +22,8 @@ When tests are written in a domain-specific language, the underlying code for th
 
 You can:
 
-- Check out the [[Table of Contents|Table of Contents]] for more on what this documentation covers
-- Read the [[Glossary|Glossary]] to learn more about the terms and concepts referenced in this documentation and related tutorials
+- Check out the Table of Contents for more on what this documentation covers
+- Read the Glossary to learn more about the terms and concepts referenced in this documentation and related tutorials
 - Check out the documentation for [SpecFlow](https://specflow.org/docs/), [Gherkin](https://cucumber.io/docs/gherkin/reference/), and [Selenium](https://selenium.dev/selenium/docs/api/py/api.html#)
 
 ### What technologies are the Specflow.Core and Specflow.Selenium projects built on?
