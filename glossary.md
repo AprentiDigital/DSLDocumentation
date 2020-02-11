@@ -6,6 +6,9 @@ nav_order: 2
 
 # Glossary
 
+1. TOC
+{:toc}
+
 ### Anti-corruption layer
 
 ### Application programming interface (API)
