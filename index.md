@@ -2,7 +2,7 @@
 
 ### What does this documentation cover?
 
-This documentation covers features in the [Specflow.Core](https://github.com/BasHamer/PossumLabs.Specflow.Core) and [Specflow.Selenium](https://github.com/BasHamer/PossumLabs.Specflow.Selenium) projects. These projects extend Specflow to add support for variables, entities, and proxies. You can write tests for web applications using the Selenium features, and you can write tests for application programming interfaces (APIs) and enterprise service buses (ESBs) using the core functionality.
+This documentation covers features in the <a href="https://github.com/BasHamer/PossumLabs.Specflow.Core" target="_blank">Specflow.Core</a> and [Specflow.Selenium](https://github.com/BasHamer/PossumLabs.Specflow.Selenium) projects. These projects extend Specflow to add support for variables, entities, and proxies. You can write tests for web applications using the Selenium features, and you can write tests for application programming interfaces (APIs) and enterprise service buses (ESBs) using the core functionality.
 
 If you're new to automated testing with a domain-specific language (DSL), this documentation will help you get up and running. If you're already familiar with DSL testing, you may want to take a look at the advanced features and customizations. 
 
