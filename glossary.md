@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # Glossary
-{: .no_toc}
 
 1. TOC
 {:toc}
