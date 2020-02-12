@@ -32,7 +32,9 @@ You can:
 - Read the Glossary to learn more about the terms and concepts referenced in this documentation and related tutorials
 - Check out the documentation for [SpecFlow](https://specflow.org/docs/), [Gherkin](https://cucumber.io/docs/gherkin/reference/), and [Selenium](https://selenium.dev/selenium/docs/api/py/api.html#)
 
-### What technologies are the Specflow.Core and Specflow.Selenium projects built on?
+### What technologies is the Possum Labs DSL project built on?
+
+The DSL project is built in C# and is compatible with .NET Core and Selenium 4.
 
 ### I'm stuck. Where can I get help?
 
