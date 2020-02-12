@@ -1,7 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 aux_links:
-  "PossumLabs.Specflow.Core":
+  "Specflow.Core":
     - "//github.com//BasHamer/PossumLabs.Specflow.Core"
-  "PossumLabs.Specflow.Selenium":
+  "Specflow.Selenium":
     - "//github.com//BasHamer/PossumLabs.Specflow.Selenium"
     
