@@ -5,6 +5,10 @@ nav_order: 2
 ---
 
 # Glossary
+{: .no_toc }
+
+## Contents
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
