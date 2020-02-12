@@ -35,3 +35,5 @@ You can:
 ### What technologies are the Specflow.Core and Specflow.Selenium projects built on?
 
 ### I'm stuck. Where can I get help?
+
+If you need help or would like to submit a bug, please <a href="https://github.com/Possum-Labs/DSL/issues" target="_blank">open an issue in the DSL project on Github</a>.
