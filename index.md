@@ -8,7 +8,7 @@ nav_order: 1
 
 ### What does this documentation cover?
 
-This documentation covers features in the <a href="https://github.com/Possum-Labs/DSL" target="_blank">PossumLabs DSL project</a>. These projects extend Specflow to add support for variables, entities, and proxies. You can write tests for web applications using the Selenium features, and you can write tests for application programming interfaces (APIs) and enterprise service buses (ESBs) using the core functionality.
+This documentation covers features in the <a href="https://github.com/Possum-Labs/DSL" target="_blank">Possum Labs DSL project</a>. These projects extend Specflow to add support for variables, entities, and proxies. You can write tests for web applications using the Selenium features, and you can write tests for application programming interfaces (APIs) and enterprise service buses (ESBs) using the core functionality.
 
 If you're new to automated testing with a domain-specific language (DSL), this documentation will help you get up and running. If you're already familiar with DSL testing, you may want to take a look at the advanced features and customizations. 
 
@@ -32,7 +32,7 @@ You can:
 - Read the Glossary to learn more about the terms and concepts referenced in this documentation and related tutorials
 - Check out the documentation for [SpecFlow](https://specflow.org/docs/), [Gherkin](https://cucumber.io/docs/gherkin/reference/), and [Selenium](https://selenium.dev/selenium/docs/api/py/api.html#)
 
-### What technologies is the PossumLabs DSL project built on?
+### What technologies is the Possum Labs DSL project built on?
 
 The DSL project is built in C# and is compatible with .NET Core and Selenium 4.
 
