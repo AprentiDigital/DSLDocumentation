@@ -2,7 +2,7 @@
 layout: default
 title: Run an Example Test
 parent: Getting Started
-nav_order: 3
+nav_order: 4
 ---
 
 # Run Your First Example Test
