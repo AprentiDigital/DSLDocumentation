@@ -7,7 +7,7 @@ nav_order: 6
 
 ## Set up a new project in Visual Studio Code (VSCode)
 
-Before following these instructions, you will first need to complete the steps on the [[Tools and Installation|Tools and Installation]] page for your system.
+Before following these instructions, you will first need to complete the steps on the [Tools and Installation](tools-and-installation) page for your system.
 
 ### Create the project
 
