@@ -2,4 +2,4 @@ remote_theme: pmarsceill/just-the-docs
 title: DSL Documentation
 aux_links:
   "Possum Labs DSL on GitHub":
-    - "//github.com//BasHamer/Possum-Labs/DSL"
+    - "https://github.com/Possum-Labs/DSL"
