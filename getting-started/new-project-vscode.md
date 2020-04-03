@@ -1,6 +1,6 @@
 ---
 layout: default
-title: New Project in VS Code
+title: New VS Code Project
 parent: Getting Started
 nav_order: 6
 ---
