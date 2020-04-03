@@ -7,7 +7,7 @@ nav_order: 5
 
 ## Set up a new project in Visual Studio
 
-Before following these instructions, you will first need to complete the steps on the [[Tools and Installation|Tools and Installation]] page for your system.
+Before following these instructions, you will first need to complete the steps on the [Tools and Installation](tools-and-installation) page for your system.
 
 ### Create the project
 
