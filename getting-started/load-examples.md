@@ -15,9 +15,9 @@ The [Possum Labs DSL project](https://github.com/Possum-Labs/DSL) includes examp
 - Git on the command line. Tutorials are available at [[git-scm.com|https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository]]
 - A git desktop client like [[GitHub desktop|https://desktop.github.com/]]
 - Source control management in Visual Studio or Visual Studio Code
-2. Open Visual Studio or Visual Studio Code
-3. Use the `File > Add Folder to Workspace` dialog to find and open the local `DSL` folder that was created when you cloned the project.
-4. The project files should appear in the file explorer sidebar.
+1. Open Visual Studio or Visual Studio Code
+1. Use the `File > Add Folder to Workspace` dialog to find and open the local `DSL` folder that was created when you cloned the project.
+1. The project files should appear in the file explorer sidebar.
 
 ### Build the project
 
