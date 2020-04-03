@@ -2,8 +2,10 @@
 layout: default
 title: Tools and Installation
 parent: Getting Started
-nav_order: 3
+nav_order: 1
 ---
+
+## Tools and Installation
 
 It's possible to write automated tests with Specflow.Core and Specflow.Selenium using any text editor or integrated development environment (IDE) on Windows, MacOS, or Linux. For ease of managing the example projects and for the sake of this documentation, these instructions cover the use of VisualStudio and VisualStudio Code on Windows and MacOS. There are free versions of all the tools and libraries listed below.
 
