@@ -11,7 +11,7 @@ The element factory is the part of the Possum Labs framework that creates elemen
 
 This functionality makes the Possum Labs framework tolerant of HTML, style, and input changes, so that tests will usually still pass after code base updates. During a test, the framework will clear out any existing values from an element, set the new value, wait and try to set it again if necessary, and use JavaScript to set the value if needed. For example, some options in drop-downs can be hard for the framework to find or identify. By customizing the element factory, you can identify elements with your tests that may be unique to your product's implementation.
 
-With some customizations, it may be necessary to slightly modify the client-side HTML to support the changes to the element factory.
+With some customizations, you may need to leverage the custom helpers that are present in your client-side HTML.
 
 ### Open the example project
 
