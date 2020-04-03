@@ -1,6 +1,6 @@
 ---
 layout: default
-title: New Project in Visual Studio
+title: New Visual Studio Project
 parent: Getting Started
 nav_order: 5
 ---
