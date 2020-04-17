@@ -20,7 +20,9 @@ After calling Slipka to set up a proxy, Slipka returns the proxy and its ports. 
 ### Configure Slipka to intercept files
 
 1. Open `English > SlipkaSteps.cs` in the example project. This file gives a sample implementation for configuring Slipka to intercept files.
-1. Look for the following line: `public void GivenUsingAProxy() => Pages.Override(Proxy.Value.ProxyUri);` This statement is necessary to override the URL.
+1. Look for the following line: `public void GivenUsingAProxy()
+            => WebDriverManager.BaseUrl =
+            new Uri($"http://slipka:{Proxy.Value.ProxyUri.Port}");` This statement is necessary to override the URL.
 1. Next, configure the proxy to intercept certain files types. The `ReportAttribute()` function in `SlipkaSteps.cs` shows an example for how to intercept three file types:
 
 ```
