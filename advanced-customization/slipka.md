@@ -5,7 +5,7 @@ parent: Advanced Customizations
 nav_order: 5
 ---
 
-## The Slipka Proxy
+# The Slipka Proxy
 
 Slipka is a proxy service that makes files downloaded by the browser accessible to your tests. If you’re downloading a report (for example, a PDF file) as part of a test, that file will be downloaded by the browser. Since the browser is running in a container, you don’t have direct access to the browser or the operating system it's running in, and you don’t know how long downloaded files will persist. Selenium doesn’t natively support a way to access downloaded files.
 
