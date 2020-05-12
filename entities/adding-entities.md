@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add An Entity
+title: Adding Entities
 parent: Entities
 nav_order: 1
 ---
