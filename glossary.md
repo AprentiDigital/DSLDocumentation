@@ -21,17 +21,37 @@ With DSL testing, tests are written in a human-readable format that is resolved 
 
 ### Application programming interface (API)
 
+This is a piece of software that has the purpose of facilitating communication from other programs. REST and GraphQL are technologies that are used to implement APIs.
+
 ### Attribute
+
+Attributes are a C# concept similar to "tags" in Gherkin. they are non-functional documentation elements that other systems my interpert. 
+
+Think of them as hashtags in tweets, but for code.
 
 ### Behavior-Driven Development (BDD)
 
+Introduced aroudn 2008 this development methodology aimed to address the problem of developers building the wrong thing. The practice of creating a specification before implemnetation. These specifications are in a form that are machine parsable and human readable, leading the specifications to become the acceptance tests of the development work.
+
 ### Bounded context
+
+Words have meanings within a context, for instance when you are taking a class about cars "gas" means gasoline, where as in the physics class "gas" means a state like solid or liquid.
+
+This also applies in large organizations, where as the UI team has a clear idea of what and "account" is, but the CFO has a different meaning for "account".
+
+When creating a Domain-Specific Langauge you want to be clear what is in or out of context as you want to minimize confusion. This may mena that in large organizations you will need multiple bounded contexts and multiple Domain-specific Langauges.
 
 ### Container
 
+For our purposes a container is a virtual machines inside of Docker. 
+
 ### Context Map
 
+A Context Map is produced by using Context mappting, which is a tool that allows you to identify the relationship between bounded contexts and the relationship between the teams that are responsible for them.
+
 ### Cucumber
+
+A interperter implementation of Gherkin. Specflow is also an interperter of Gherkin. This is the part that reads the feature files are triggers the code for scenario execution.  
 
 ### Docker
 
@@ -39,7 +59,13 @@ Docker is a tool that makes it possible to run multiple, isolated copies of appl
 
 ### Domain
 
+An organizational construct to group concepts; much like a king has a domain that contains subjects and assets. In our context it refers to ideas, processes, and concepts.
+
 ### Domain-Driven Design (DDD)
+
+A set of practices that focus on placing the problem that the business solves at the center of the software. By utilizing the language and concepts of the business in the implementation you reduce the risk of mistakes.
+
+This is in contrast to implementations that focus on the technology, and may colapse multiple business concepts into single entity for efficiency. 
 
 ### Domain-Specific Language (DSL)
 
@@ -47,13 +73,25 @@ A domain-specific language is a limited-use language made up of words that have 
 
 ### Dot notation
 
+This is a common way of accessing variables in programming languages. Lets say we have a dog called "Loebas", and we want to get the color of his coat; this would read as Loabas.Coat.Color in dot notation.  
+
 ### Enterprise service bus (ESB)
+
+A system that uses messages that are broadcast, and subscribed to by software components. This is in contrast to sending infomration to specific locations via API calls.
+
+It is the software equivalent of the bloodstream, lots of hormones are places into the bloodstream by some organs and then acted upon by others. This is in contrast to the nervous system where the information is send to specific locations.
 
 ### Entity/Entities
 
+The mouns that are the most meaningful in your oganization, these can be things like Customer, Order, Shipment, Wiget, etc.
+
 ### Feature
 
+An organizational unit for scenarios that wish to share a background. It is also the unit at wich sceanrios are presisted on disk. So your feature files will contain your scnearios. 
+
 ### Gherkin
+
+A set of simple grammar that in english consistes of the Given, When, Then syntax. This syntax is what is interperted by Cucumber and Gherkin.
 
 ### Git
 
@@ -65,9 +103,15 @@ Running software headless (e.g. running a browser headless) means running it wit
 
 ### Keywords
 
+These are reserved words in programming langauges that have specific meaning. For instance in Gherkin Give, When and Then are keywords. When these words are used in specific contexts they will be interperted to trigger functionality. 
+
 ### Model
 
+An abstraction of data and processes that is useful for communicating with people or software. 
+
 ### Model-Driven Design (MDD)
+
+An analythical process where you will describe the software using many models. It focuses less on the business comapred to Domain Driven Design, but there is overlap.  
 
 ### Mono
 
@@ -79,7 +123,13 @@ Running software headless (e.g. running a browser headless) means running it wit
 
 ### Open Source
 
+This refers to software where the source code is available for inspection and compilation. This allows developers to dive in and understand exacty how the code works even if they work for a different organization. It also allows people to contribute to these projects.
+
+It is a bit like Wikipedia except that there is an approval process for changes that is amnaged by the owners of each individual project.
+
 ### Property
+
+A data attribute of an object. For instance a drivers license object would have an expiration data attribute as well as many other ones. These don't have to be simple data types and can be complex objects that have their own properties.  
 
 ### Quality Assurance (QA)
 
@@ -87,7 +137,13 @@ Quality Assurance is the implementation of structured methods of testing product
 
 ### Selenium
 
+An open source suite of software that provides a standardized api to itneract with the different types of browsers. Very popular in the testing of websites and many other tools have been build on top of Selenium.
+
 ### Selenium grid
+
+A configuration of a Selenium controller and Selenium Nodes that provide a collection of browsers that tests can utilize. The controller provides the best matching browser for tests depening on what it has avaialble. 
+
+Altough setting this up can be complex, it can also be as simple as a singe docker compose file.
 
 ### Source Control
 
@@ -101,9 +157,19 @@ Distributed version control is a kind of source control where everyone working o
 
 ### Test-Driven Development
 
+Introduced around 2000, this practice aimed to prevent developers from building incorrect code. The idea is that the developer writes tests before they write code in an effort to ensure that the code works according the the expectations that the developer has. 
+
+This is different from BDD as the tests are written by the developer not in collaboration with the team.
+
 ### Ubiquitous language
 
+A subset of English (or any language) where all the works have a clear meaning understood by the people that work on the domain. This will be a tiny set of words relative to English, without synonims and few adjectives. 
+
+The goal is to ensure that there is clarity in what is being communicated in this language, without any ambiguity. Examples where you would find ubiquitous langauge in real life are rules & regulations and work orders.
+
 ### Variable
+
+In our context this is a named piece of data. Lets say there are two cats, Whiskers and Purrcival. If we want to communicate about these cats we don't want to keep saying first and second cat, so instead we refer to them by their name. This will allow us to refer to Whiskers.Coat.Color for the collor of the coat of whiskers whitout any ambiguity.   
 
 ### Visual Studio
 
@@ -114,6 +180,8 @@ Distributed version control is a kind of source control where everyone working o
 [Visual Studio Code](https://code.visualstudio.com/) (VSCode for short) is a free, cross-platform text editor for managing source code. It includes developer tools and optional extensions that help with language support, testing, and debugging, and that make it a viable alternative to Visual Studio for many projects. It is available for Windows, MacOS, and some Linux distributions.
 
 ### Web driver
+
+A piece of middle ware used in Selenium to interact with a specific web browser like Ghrome, Edge, etc.
 
 ### XPath (XML Path Language)
 
