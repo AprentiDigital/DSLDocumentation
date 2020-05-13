@@ -21,25 +21,25 @@ With DSL testing, tests are written in a human-readable format that is resolved 
 
 ### Application programming interface (API)
 
-This is a piece of software that has the purpose of facilitating communication from other programs. REST and GraphQL are technologies that are used to implement APIs.
+An API is a piece of software that handles communication coming from other programs. REST and GraphQL are technologies that are used to implement APIs.
 
 ### Attribute
 
-Attributes are a C# concept similar to "tags" in Gherkin. they are non-functional documentation elements that other systems my interpert. 
+Attributes are a C# concept similar to "tags" in Gherkin. They are non-functional documentation elements that other systems may interpret. 
 
 Think of them as hashtags in tweets, but for code.
 
 ### Behavior-Driven Development (BDD)
 
-Introduced aroudn 2008 this development methodology aimed to address the problem of developers building the wrong thing. The practice of creating a specification before implemnetation. These specifications are in a form that are machine parsable and human readable, leading the specifications to become the acceptance tests of the development work.
+BDD is a development methodology that was introduced around 2008 to help developers know exactly what they need to build. It helps with the practice of creating a specification before implementation. These specifications are in a form that are both machine-parsable and human-readable, which means the specifications act as the acceptance tests for the development work.
 
 ### Bounded context
 
-Words have meanings within a context, for instance when you are taking a class about cars "gas" means gasoline, where as in the physics class "gas" means a state like solid or liquid.
+Words have meanings within a context. For instance, when you are talking about cars, "gas" refers to gasoline, whereas in a physics class, "gas" means a state like solid or liquid. A bounded context defines a set of related things. Within Domain-Driven Design (DDD), a bounded context is a pattern that helps deal with large models by breaking up them up into parts.
 
 This also applies in large organizations, where as the UI team has a clear idea of what and "account" is, but the CFO has a different meaning for "account".
 
-When creating a Domain-Specific Langauge you want to be clear what is in or out of context as you want to minimize confusion. This may mena that in large organizations you will need multiple bounded contexts and multiple Domain-specific Langauges.
+When creating a Domain-Specific Language, it's important to be clear what is in or out of context to minimize confusion. This may mean that in large organizations you will need multiple bounded contexts and multiple Domain-Specific Languages.
 
 ### Container
 
