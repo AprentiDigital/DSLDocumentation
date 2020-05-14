@@ -9,8 +9,6 @@ nav_order: 7
 
 The Possum Labs DSL project is broken up into a number of different packages. This allows you to integrate at the level you prefer without needing to take everything. A big reason for this seperation is that we utilize Selenium and that is a large dependency.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nu5BkWbZk6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Core
 
 The core package has the logic for dealing with variables. It has the least dependencies.
