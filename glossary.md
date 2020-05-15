@@ -35,23 +35,23 @@ BDD is a development methodology that was introduced around 2008 to help develop
 
 ### Bounded context
 
-Words have meanings within a context. For instance, when you are talking about cars, "gas" refers to gasoline, whereas in a physics class, "gas" means a state like solid or liquid. A bounded context defines a set of related things. Within Domain-Driven Design (DDD), a bounded context is a pattern that helps deal with large models by breaking up them up into parts.
+Words have meanings within a context. For instance, when you are talking about cars, "gas" refers to gasoline, whereas in a physics class, "gas" might mean a state like solid or liquid. This pattern also applies in large organizations, where the UI team has a clear idea of what an "account" is, but the CFO has a different meaning for "account".
 
-This also applies in large organizations, where as the UI team has a clear idea of what and "account" is, but the CFO has a different meaning for "account".
+A bounded context defines a set of related things. Within Domain-Driven Design (DDD), a bounded context is a pattern that helps deal with large models by breaking up them up into parts (contexts).
 
-When creating a Domain-Specific Language, it's important to be clear what is in or out of context to minimize confusion. This may mean that in large organizations you will need multiple bounded contexts and multiple Domain-Specific Languages.
+When creating a Domain-Specific Language, it's important to be clear about what is in or out of context to minimize confusion. Defining context may mean that in large organizations you will need multiple bounded contexts and multiple Domain-Specific Languages.
 
 ### Container
 
-For our purposes a container is a virtual machines inside of Docker. 
+A container is similar to a virtual machine. It bundles up code with its runtime and with everything else needed to run an application. Within the Possum Labs DSL project, containers make it possible to run multiple instances of browsers at the same time, which speeds up testing.
 
 ### Context Map
 
-A Context Map is produced by using Context mappting, which is a tool that allows you to identify the relationship between bounded contexts and the relationship between the teams that are responsible for them.
+A Context Map is produced through context mapping, which is a method that allows you to identify the relationships between bounded contexts and the relationships between the teams that are responsible for them.
 
 ### Cucumber
 
-A interperter implementation of Gherkin. Specflow is also an interperter of Gherkin. This is the part that reads the feature files are triggers the code for scenario execution.  
+Cucumber is an interpreter implementation of Gherkin. (Specflow is also an interpreter of Gherkin.) The interpreter is the part that reads the feature files and triggers the code for scenario execution.  
 
 ### Docker
 
