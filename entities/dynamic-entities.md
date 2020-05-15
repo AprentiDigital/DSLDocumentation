@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Dynamic Entities
-parent: Entities
+title: Creating New Data
+parent: Core Tutorials
 nav_order: 2
 ---
 
-# Dynamic Entities
+# Core Tutorial 2 - Creating New Data
