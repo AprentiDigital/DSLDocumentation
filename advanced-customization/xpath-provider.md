@@ -13,6 +13,8 @@ During an automated test, the Possum Labs framework searches for elements on Web
 
 If your tests need to follow a style guide, or if you are using different HTML tags than those defined in the framework, you can create a custom XPath provider to add and remove HTML element types within each category. You can also change how content is matched and replace or trim non-breaking white spaces.
 
+[Jump to video](#video-tutorial)
+
 ### Open the example project
 
 1. Open the `Tutorials > Advanced` folder in the Possum Labs DSL project and expand the project called `1 Customizing the XpathProvider`.
@@ -31,3 +33,7 @@ If your tests need to follow a style guide, or if you are using different HTML t
 ### XPath Tutorials
 
 The [W3C](https://www.w3.org/) maintains the [XPath standards](https://www.w3.org/TR/xpath/all/). If you would like to learn more about XPath syntax, there is an [XPath tutorial](https://www.w3schools.com/xml/xpath_intro.asp) available as a part of [W3schools](https://www.w3schools.com/).
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VROYhuw2w0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
