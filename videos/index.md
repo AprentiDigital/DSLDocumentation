@@ -22,9 +22,11 @@ Using .Core vs .English for PossumLabs.DSL
 ### Core
 
 Tutorial Core 1 PossumLabs.DSL.Core
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9W7ZjvYrOmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Tutorial Core 2 PossumLabs.DSL.Core
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T-32lUKlhjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Tutorial Core 3 PossumLabs.DSL.Core
