@@ -11,11 +11,11 @@ nav_order: 1
 
 ### Video Tutorials
 
-#### English Version Tutorial
+#### PossumLabs.DSL.English Version
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/us977YPq7qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Core Version Tutorial
+#### PossumLabs.DSL.Core Version
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9W7ZjvYrOmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
