@@ -13,6 +13,8 @@ This functionality makes the Possum Labs framework tolerant of HTML, style, and 
 
 With some customizations, you may need to leverage the custom helpers that are present in your client-side HTML.
 
+[Jump to video](#video-tutorial)
+
 ### Open the example project
 
 1. Open the `Tutorials > Advanced` folder in the Possum Labs DSL project and expand the project `3 Customizing the ElementFactory`.
@@ -50,3 +52,7 @@ override public Element Create(IWebDriver driver, IWebElement e)
         }
 ```
 This override replaces the framework's default handling of `<select>` elements with the CustomSloppySelectElement behavior. You can follow this pattern for all of your custom element overrides.
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wFkSraKdXmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
