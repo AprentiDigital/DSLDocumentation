@@ -7,7 +7,7 @@ nav_order: 7
 
 ## Core vs. Web vs. English
 
-The Possum Labs DSL project is broken up into a number of different packages. This allows you to integrate at the level you prefer without needing to take everything. A big reason for this seperation is that we utilize Selenium and that is a large dependency.
+The Possum Labs DSL project is broken up into several different packages. This separation allows you to integrate at the level you prefer without needing to take everything. A big reason for this separation is that we utilize Selenium, and that is a large dependency.
 
 ### Core
 
@@ -15,18 +15,18 @@ The core package has the logic for dealing with variables. It has the least depe
 
 ### Web
 
-The web package has a dependency on selenium.
+The web package has a dependency on Selenium.
 
 ### English
 
-The English project has default implementations for simple stesps and has a dependency on Specflow. 
+The English project has default implementations for simple steps and has a dependency on Specflow. 
 
-### Wich one should you use?
+### Which one should you use?
 
 Use English when getting started. 
 
-If you are worried about dependencies, or there is a conflict you can utilize the lower level packages.
+If you are worried about dependencies or there is a conflict, you can utilize the lower-level packages.
 
-If you work in a langauge other than english the advice is to still do a prototype in english package and then replace that with your desired langauge.
+If you work in a language other than English, the advice is to do a prototype with the English package and then replace that with your desired language.
 
-If there is a package in your perferred langauge then by all means use that.
+If there is a package in your preferred language, then, by all means, use that.
