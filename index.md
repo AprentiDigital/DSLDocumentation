@@ -29,7 +29,7 @@ When tests are written in a domain-specific language, the underlying code for th
 You can:
 
 - Check out the Table of Contents for more on what this documentation covers
-- Read the Glossary to learn more about the terms and concepts referenced in this documentation and related tutorials
+- Read the [Glossary](glossary) to learn more about the terms and concepts referenced in this documentation and related tutorials
 - Check out the documentation for [SpecFlow](https://specflow.org/docs/), [Gherkin](https://cucumber.io/docs/gherkin/reference/), and [Selenium](https://selenium.dev/selenium/docs/api/py/api.html#)
 
 ### What technologies is the Possum Labs DSL project built on?
