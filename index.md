@@ -39,3 +39,13 @@ The DSL project is built in C# and is compatible with .NET Core and Selenium 4.
 ### I'm stuck. Where can I get help?
 
 If you need help or would like to submit a bug, please <a href="https://github.com/Possum-Labs/DSL/issues" target="_blank">open an issue in the DSL project on Github</a>.
+
+### Video Introductions
+
+#### Who is PossumLabs DSL designed for?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxGbNqC13Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Test Data management in PossumLabs DSL
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ujq-X_ODHic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
