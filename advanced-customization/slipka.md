@@ -19,7 +19,9 @@ It can also be configured to inject a response, augment traffic by adding additi
 
 After calling Slipka to set up a proxy, Slipka returns the proxy and its ports. You can then talk to the Slipka proxy server on that port, and any traffic Slipka records will be available later.
 
-Don't use Slipka unless it solves a problem you have. There are known limitations to how many concurrent proxies a single Slipka can support without creating noise (between 10 and 20). It also is unable to process the PATCH verb. 
+Don't use Slipka unless it solves a problem you have. There are known limitations to how many concurrent proxies a single Slipka can support without creating noise (between 10 and 20). It also is unable to process the PATCH verb.
+
+[Jump to video](#video-tutorial)
 
 ### Open the example project
 
@@ -52,3 +54,7 @@ public void ReportAttribute()
 ### Using Slipka in a feature file
 
 1. Open `Features > Slipka.feature`
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gjraFjBDHZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
