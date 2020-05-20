@@ -58,3 +58,18 @@ public void ReportAttribute()
 ### Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gjraFjBDHZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<!-- feedback copy paste -->
+<style>
+ .desktop-only {
+     display: none;
+ }
+
+@media screen and (min-width: 768px) {
+ .desktop-only {
+     display:block;
+ }
+}
+</style>
+<iframe src="./Feedback.html" width="900" height="400" frameBorder="0" class="desktop-only"></iframe>
