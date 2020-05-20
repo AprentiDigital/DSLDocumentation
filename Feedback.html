@@ -4,13 +4,15 @@
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <link rel="stylesheet" href="FeedbackStyles.css">
     <script>
+        //configure me
         var project = "Possum-Labs/DSL";
 
+        //change at your own risk
         var githubProjectUrl = "https://github.com/"+project;
         var issuesNew = "/issues/new?";
                 
 
-        var pathname = "Reference Path:" + document.getElementById("feedback-frame-id").contentWindow.location.pathname
+        var pathname = "Reference Path:" + window.parent.location.pathname
         
         function pageQueuryBuilder(){
             return "title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20"+
@@ -42,12 +44,12 @@
                 Send feedback about
             </p>
             <div id="DIV_5">
-                <a href="replace" id="project-link-id" class="button-links"> 
+                <a href="replace" id="project-link-id" class="button-links" target="_blank"> 
                     <span id="SPAN_7">This project</span>
                     <span
                         class="iconify" data-icon="mdi-exit-to-app" data-inline="false"></span></a>
 
-                <a href="replace" id="page-link-id" class="button-links"> 
+                <a href="replace" id="page-link-id" class="button-links" target="_blank"> 
                     <span id="SPAN_7">This page</span>
                     <span
                         class="iconify" data-icon="mdi-exit-to-app" data-inline="false"></span></a>
