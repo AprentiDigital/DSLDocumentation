@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="FeedbackStyles.css">
+    <script>
+        var project = "Possum-Labs/DSL";
+
+        var githubProjectUrl = "https://github.com/"+project;
+        var issuesNew = "/issues/new?";
+                
+
+        var pathname = "Reference Path:" + document.getElementById("feedback-frame-id").contentWindow.location.pathname
+        
+        function pageQueuryBuilder(){
+            return "title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20"+
+            project+"%20%E2%9E%9F%20GitHub%20issue%20linking.*%0A%0A*%20Path%3A%20"+pathname
+        }
+
+        function projectQueuryBuilder(){
+            return "title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20"+
+            project+"%20%E2%9E%9F%20GitHub%20issue%20linking.*%0A%0A*%20Source%3A%20"+pathname
+        }
+
+        function setLinks(){
+            var projectLink = document.getElementById("project-link-id");
+            projectLink.href = githubProjectUrl + issuesNew + projectQueuryBuilder();
+            var pageLink = document.getElementById("page-link-id");
+            pageLink.href = githubProjectUrl + issuesNew + pageQueuryBuilder();
+        }
+
+    </script>
+</head>
+
+<body onload="setLinks()">
+    <section id="SECTION_1">
+        <h2 id="H2_2">
+            Feedback
+        </h2>
+        <div id="DIV_3">
+            <p id="P_4">
+                Send feedback about
+            </p>
+            <div id="DIV_5">
+                <a href="replace" id="project-link-id" class="button-links"> 
+                    <span id="SPAN_7">This project</span>
+                    <span
+                        class="iconify" data-icon="mdi-exit-to-app" data-inline="false"></span></a>
+
+                <a href="replace" id="page-link-id" class="button-links"> 
+                    <span id="SPAN_7">This page</span>
+                    <span
+                        class="iconify" data-icon="mdi-exit-to-app" data-inline="false"></span></a>
+    
+
+                <!--<p id="P_20">
+                    You may leave feedback directly on <a
+                        href="https://github.com/MicrosoftDocs/azure-docs-cli/issues/new?title=&amp;body=%0A%0A%5BEnter%20feedback%20here%5D%0A%0A%0A---%0A%23%23%23%23%20Document%20Details%0A%0A%E2%9A%A0%20*Do%20not%20edit%20this%20section.%20It%20is%20required%20for%20docs.microsoft.com%20%E2%9E%9F%20GitHub%20issue%20linking.*%0A%0A*%20ID%3A%208b7bd326-07b2-caaa-7155-5852fc2dfa3f%0A*%20Version%20Independent%20ID%3A%20c44d0547-d5cd-8934-00f8-79e2f4df53ac%0A*%20Content%3A%20%5BInstall%20the%20Azure%20CLI%5D(https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fcli%2Fazure%2Finstall-azure-cli%3Fview%3Dazure-cli-latest)%0A*%20Content%20Source%3A%20%5Bdocs-ref-conceptual%2Finstall-azure-cli.md%5D(https%3A%2F%2Fgithub.com%2FMicrosoftDocs%2Fazure-docs-cli%2Fblob%2Fmaster%2Fdocs-ref-conceptual%2Finstall-azure-cli.md)%0A*%20Service%3A%20**azure-cli**%0A*%20GitHub%20Login%3A%20%40dbradish-microsoft%0A*%20Microsoft%20Alias%3A%20**dbradish**"
+                        id="A_21">
+                        GitHub<span class="iconify" data-icon="mdi-github" data-inline="false"></span></a>.
+                </p>-->
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
