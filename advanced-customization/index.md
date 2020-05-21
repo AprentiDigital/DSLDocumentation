@@ -15,4 +15,4 @@ Please bear in mind that less code is better for you; don't build your own unles
 
 So, in short, if you are reading through all the tutorials, then you are done. Don't look any further. On the other hand, if you have specific problems that you are looking for solutions for then, please continue to see if any of these tutorials help you solve the problem.
 
-<feeback>
+<feedback>
