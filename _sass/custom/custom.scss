@@ -141,7 +141,7 @@ $link-color: $blue-000;
 }
 
 #feedback-app a.button:hover {
-    background-color: $grey-lt-300;
+    background-color: $grey-lt-300!important;
 }
 
 #feedback-app li::before {
