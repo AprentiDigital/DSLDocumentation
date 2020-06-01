@@ -144,8 +144,8 @@ $link-color: $blue-000;
     background-color: $grey-lt-300;
 }
 
-#feedback-app ul>li::before {
-    content: "";
+#feedback-app li::before {
+    content: ""!important;
 }
 
 #feedback-app li button {
