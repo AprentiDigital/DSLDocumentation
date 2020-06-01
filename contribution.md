@@ -32,8 +32,8 @@ From a code perspective, we care about a few things. First of DRY, Don't Repeat,
 
 The goal is to keep the code pretty and fun to work on while keeping tests written using PossumLabs.DSL passing. 
 
-## Code of conduct
-We'll add one when we have to; hopefully, this is never. 
+## Last but not Least
+Read the [Code of Conduct](https://dsl.possumlabs.com/code-of-conduct.html)
 
 ### Videos
 
