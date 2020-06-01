@@ -129,9 +129,17 @@ $link-color: $blue-000;
 //);
 
 .site-footer {
-display: none;
+    display: none;
 }
 
 .navigation-list-item .navigation-list-child-list {
-  display: block !important;
+    display: block !important;
+}
+
+#feedback-app .feedback-content {
+    background-color: $grey-lt-000;
+}
+
+#feedback-app a:hover {
+    background-color: $grey-lt-300;
 }
