@@ -44,3 +44,6 @@ It's possible to write automated tests with Specflow.Core and Specflow.Selenium 
     - .NET Core Test Explorer
     - Docker
     - Cucumber (Gherkin) Full Support
+
+
+<feedback>
