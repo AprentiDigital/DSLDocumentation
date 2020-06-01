@@ -143,3 +143,7 @@ $link-color: $blue-000;
 #feedback-app a:hover {
     background-color: $grey-lt-300;
 }
+
+#feedback-app .page-content ul>li::before {
+    content: "";
+}
