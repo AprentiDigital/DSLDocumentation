@@ -27,7 +27,7 @@ An API is a piece of software that handles communication coming from other progr
 
 Attributes are a C# concept similar to "tags" in Gherkin. They are non-functional documentation elements that other systems may interpret. 
 
-Think of them as hashtags in tweets, but for code.
+It might help to think of them as hashtags in tweets, but for code.
 
 ### Behavior-Driven Development (BDD)
 
@@ -43,7 +43,7 @@ When creating a Domain-Specific Language, it's important to be clear about what 
 
 ### Container
 
-A container is similar to a virtual machine. It bundles up code with its runtime and with everything else needed to run an application. Within the Possum Labs DSL project, containers make it possible to run multiple instances of browsers at the same time, which speeds up testing.
+A container is similar to a virtual machine. It bundles up code with its runtime and with everything else needed to run an application. Within the Possum Labs DSL project, containers make it possible to run multiple instances of browsers at the same time, which speeds up testing. (See the [Docker entry](#Docker) for more on containers.)
 
 ### Context Map
 
@@ -55,17 +55,17 @@ Cucumber is an interpreter implementation of Gherkin. (Specflow is also an inter
 
 ### Docker
 
-Docker is a tool that makes it possible to run multiple, isolated copies of applications at the same time. It has less overhead than running individual virtual machines for each application, because all the containers running the applications share a single operating system kernel. Automated tests for websites will run faster if you can run them in multiple instances of browsers at the same. Docker makes that possible. When running browsers in Docker for the purpose of testing, the browsers are often run in a headless state.
+Docker is a tool that makes it possible to run multiple, isolated copies of applications at the same time. It has less overhead than running individual virtual machines for each application, because all the containers running the applications share a single operating system kernel. Automated tests for websites will run faster if you can run them in multiple instances of browsers at the same. Docker makes that possible. When running browsers in Docker for the purpose of testing, the browsers are often run in a headless state. (See the [Headless entry](#headless) for more.)
 
 ### Domain
 
-An organizational construct to group concepts; much like a king has a domain that contains subjects and assets. In our context it refers to ideas, processes, and concepts.
+A domain is an organizational construct that helps to group concepts. In our context, it refers to ideas, processes, and concepts.
 
 ### Domain-Driven Design (DDD)
 
-A set of practices that focus on placing the problem that the business solves at the center of the software. By utilizing the language and concepts of the business in the implementation you reduce the risk of mistakes.
+DDD is a set of practices that focus on placing the problem that the business solves at the center of the software. Using the language and concepts of the business in the implementation helps to reduce the risk of mistakes.
 
-This is in contrast to implementations that focus on the technology, and may colapse multiple business concepts into single entity for efficiency. 
+This practice is in contrast to implementations that focus on the technology and which subsequently may collapse multiple business concepts into single entity for efficiency. 
 
 ### Domain-Specific Language (DSL)
 
@@ -73,25 +73,23 @@ A domain-specific language is a limited-use language made up of words that have 
 
 ### Dot notation
 
-This is a common way of accessing variables in programming languages. Lets say we have a dog called "Loebas", and we want to get the color of his coat; this would read as Loabas.Coat.Color in dot notation.  
+Dot notation is a common way of accessing variables in programming languages. Let's say we have a dog called "Loebas", and we would like to get the color of his coat, which is stored as an attribute. This information would read as `Loabas.Coat.Color` in dot notation.  
 
 ### Enterprise service bus (ESB)
 
-A system that uses messages that are broadcast, and subscribed to by software components. This is in contrast to sending infomration to specific locations via API calls.
-
-It is the software equivalent of the bloodstream, lots of hormones are places into the bloodstream by some organs and then acted upon by others. This is in contrast to the nervous system where the information is send to specific locations.
+An ESB is a system that uses messages that are broadcast and subscribed to by software components. This is in contrast to sending information to specific locations via API calls.
 
 ### Entity/Entities
 
-The mouns that are the most meaningful in your oganization, these can be things like Customer, Order, Shipment, Wiget, etc.
+Entities are the nouns that are the most meaningful in your organization. They can be things like Customer, Order, Shipment, Widget, and so on.
 
 ### Feature
 
-An organizational unit for scenarios that wish to share a background. It is also the unit at wich sceanrios are presisted on disk. So your feature files will contain your scnearios. 
+A features is an organizational unit for scenarios that wish to share a background. It is also the unit at which scenarios are persisted on disk. Your feature files will contain your scenarios. 
 
 ### Gherkin
 
-A set of simple grammar that in english consistes of the Given, When, Then syntax. This syntax is what is interperted by Cucumber and Gherkin.
+Gherkin is a set of structured grammar rules that can be interpreted by Cucumber. In English, the grammar consists of the Given, When, Then syntax.
 
 ### Git
 
@@ -99,19 +97,19 @@ Git is a free, open source tool for source control management. It is primarily u
 
 ### Headless
 
-Running software headless (e.g. running a browser headless) means running it without its graphical user interface. When running browsers in containers for automated testing, the graphical user interface isn't usually necessary, because there isn't a person watching every single test play out. Despite running headless, it's still possible to record screenshots of the tests that can be reviewed after the test is over.
+Running software headless (e.g. running a browser headless) means running it without its graphical user interface. When running browsers in containers for automated testing, the graphical user interface isn't usually necessary, because there isn't a person watching every single test play out. Despite running headless, it's still possible to record screenshots of the tests that can be reviewed after the test is over. The screenshots can also be compiled into a video.
 
 ### Keywords
 
-These are reserved words in programming langauges that have specific meaning. For instance in Gherkin Give, When and Then are keywords. When these words are used in specific contexts they will be interperted to trigger functionality. 
+Keywords are reserved words in programming languages that have a specific meaning and function within the language. For instance, "Give," "When," and "Then" are keywords in Gherkin. When these words are used in specific contexts they will be interpreted to trigger functionality. 
 
 ### Model
 
-An abstraction of data and processes that is useful for communicating with people or software. 
+A model is an abstraction of data and processes that is useful for communicating with people or software. 
 
 ### Model-Driven Design (MDD)
 
-An analythical process where you will describe the software using many models. It focuses less on the business comapred to Domain Driven Design, but there is overlap.  
+MDD is an analytical process that involves describing software using many models. It focuses less on the business compared to Domain Driven Design, but there is overlap.  
 
 ### Mono
 
@@ -123,9 +121,9 @@ An analythical process where you will describe the software using many models. I
 
 ### Open Source
 
-This refers to software where the source code is available for inspection and compilation. This allows developers to dive in and understand exacty how the code works even if they work for a different organization. It also allows people to contribute to these projects.
+Open Source refers to software where the source code is available for inspection and compilation. This access allows developers to dive in and understand exactly how the code works even if they work for a different organization. It usually also allows people to contribute to these projects.
 
-It is a bit like Wikipedia except that there is an approval process for changes that is amnaged by the owners of each individual project.
+Open Source is a bit like Wikipedia, except that there is an approval process for changes that is managed by the owners of each individual project.
 
 ### Property
 
