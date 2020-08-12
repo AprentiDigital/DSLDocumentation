@@ -7,7 +7,7 @@ has_children: true
 
 ## DSL.Core Tutorials
 
-The tutorials fall into three sections: Core for the parts dealing with variables, Web for interacting with webpages, and an Advanced section that talks about replacing and modifying components of the framework. This section is the Core section, where you'll learn how the PossumLabs.DSL framework can help you define data for your scenarios concisely and powerfully. 
+The tutorials fall into three categories: Core for the parts dealing with variables, Web for interacting with webpages, and an Advanced section that talks about replacing and modifying components of the framework. This section is the Core section, where you'll learn how the PossumLabs.DSL framework can help you define data for your scenarios concisely and powerfully. 
 
 We will start by introducing entities; then, we will explore the different types of aspects that can describe the entities. All of this will result in the final tutorial, where we will put it all together and create a complex data scenario that leverages all of these concepts. 
 
