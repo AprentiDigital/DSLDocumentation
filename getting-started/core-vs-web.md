@@ -7,7 +7,7 @@ nav_order: 7
 
 ## Core vs. Web vs. English
 
-The Possum Labs DSL project is broken up into several different packages. This separation allows you to integrate the project at the level you prefer without needing to import the things that you don't need. A big reason for this separation is that the Web project uses Selenium, which is a large dependency.
+The Possum Labs DSL project is broken up into several different packages. This separation allows you to integrate the project at the level you prefer without needing to import the parts that you don't need. A big reason for this separation is that the Web project uses Selenium, which is a large dependency.
 
 ### Core
 
