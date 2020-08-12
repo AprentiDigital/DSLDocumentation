@@ -7,11 +7,11 @@ nav_order: 7
 
 ## Core vs. Web vs. English
 
-The Possum Labs DSL project is broken up into several different packages. This separation allows you to integrate at the level you prefer without needing to take everything. A big reason for this separation is that we utilize Selenium, and that is a large dependency.
+The Possum Labs DSL project is broken up into several different packages. This separation allows you to integrate the project at the level you prefer without needing to import the things that you don't need. A big reason for this separation is that the Web project uses Selenium, which is a large dependency.
 
 ### Core
 
-The core package has the logic for dealing with variables. It has the least dependencies.
+The core package has the logic for dealing with variables. It has the least number of dependencies.
 
 ### Web
 
