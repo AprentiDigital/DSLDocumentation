@@ -7,7 +7,7 @@ has_children: true
 
 ## DSL.Web Tutorials
 
-The tutorials fall into three sections: Core for the parts dealing with variables, Web for interacting with webpages, and Advanced for modifying and replacing components of the framework. This section covers the tutorials for working with websites.
+The tutorials fall into three categories: Core for the parts dealing with variables, Web for interacting with webpages, and Advanced for modifying and replacing components of the framework. This section covers the tutorials for working with websites.
 
 We will be relying on the English package for these tutorials. 
 
