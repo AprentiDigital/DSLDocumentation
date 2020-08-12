@@ -7,12 +7,12 @@ has_children: true
 
 ## Advanced Customizations
 
-The tutorials fall into up into three sections, Core for the parts dealing with variables, Web for interacting with webpages, and Advanced that talks about replacing components of the framework. This section deals with the advanced tutorials.
+The tutorials fall into three categories: Core for the parts dealing with variables, Web for interacting with webpages, and an Advanced section that talks about replacing and modifying components of the framework. This section deals with the advanced tutorials.
 
-No framework will solve everyone's problem and the PossumLabs.DSL project is designed on this premise. We architected for extensibility, and this means that you can replace components as you wish. The tutorials will cover common examples of parts that have been overwritten in the past. We will cover when and why you would wish to overwrite these specific parts. 
+No single framework will solve everyone's problems, and the PossumLabs.DSL project is designed on this premise. We architected for extensibility, and this means that you can replace components as you wish. The tutorials will cover common examples of functionality overrides. We will cover when and why you would wish to override these specific parts. 
 
-Please bear in mind that less code is better for you; don't build your own unless it solves an issue you have. It has fewer touchpoints for your integration with the PossumLabs.DSL packages and that means it is easier to update. Also, if there are defects, you encounter you make it much easier to troubleshoot them and have an increased opportunity to blame someone else (us in this case).  
+Please bear in mind that less code is better for you. Don't build your own functionality unless it solves an issue you have. Fewer overrides also means fewer touchpoints for your integration with the PossumLabs.DSL packages, and that means it is easier to update. Also, if you encounter defects, it will be much easier to troubleshoot them and for us to help you find the problem if you haven't overridden framework functionality.  
 
-So, in short, if you are reading through all the tutorials, then you are done. Don't look any further. On the other hand, if you have specific problems that you are looking for solutions for then, please continue to see if any of these tutorials help you solve the problem.
+So, in short, if you are reading through all the tutorials, then you are done. Don't look any further. On the other hand, if you have specific problems that you are looking to solve, please continue on to see if any of these tutorials can help you solve them.
 
 <feedback>
