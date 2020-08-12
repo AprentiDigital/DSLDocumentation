@@ -18,6 +18,3 @@ The [Possum Labs DSL project](https://github.com/Possum-Labs/DSL) includes examp
 1. Open Visual Studio or Visual Studio Code
 1. Use the `File > Add Folder to Workspace` dialog to find and open the local `DSL` folder that was created when you cloned the project.
 1. The project files should appear in the file explorer sidebar.
-
-### Build the project
-
