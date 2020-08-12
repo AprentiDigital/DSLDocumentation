@@ -15,20 +15,20 @@ The core package has the logic for dealing with variables. It has the least numb
 
 ### Web
 
-The web package has a dependency on Selenium.
+The web package has a dependency on Selenium, which makes it possible to test webpages.
 
 ### English
 
-The English project has default implementations for simple steps and has a dependency on Specflow. 
+The English project includes default implementations for simple steps and has a dependency on Specflow. 
 
 ### Which one should you use?
 
-Use English when getting started. 
+We recommend using the English project when getting started. 
 
-If you are worried about dependencies or there is a conflict, you can utilize the lower-level packages.
+If you are worried about dependencies or if there is a conflict, use the lower-level packages.
 
-If you work in a language other than English, the advice is to do a prototype with the English package and then replace that with your desired language.
+If you work in a language other than English, our advice is to start a prototype with the English package and then replace English with your desired language.
 
-If there is a package in your preferred language, then, by all means, use that.
+If there is already a package available in your preferred language, then we recommend starting with that.
 
 <feedback>
