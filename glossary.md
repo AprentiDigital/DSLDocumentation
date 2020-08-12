@@ -127,7 +127,7 @@ Open Source is a bit like Wikipedia, except that there is an approval process fo
 
 ### Property
 
-A data attribute of an object. For instance a drivers license object would have an expiration data attribute as well as many other ones. These don't have to be simple data types and can be complex objects that have their own properties.  
+A property is a data attribute of an object that is represented in code. For instance, a drivers license object would have an expiration date attribute as well as name, date of birth, and many others. These attributes don't have to be simple data types and can be complex objects that have their own properties.  
 
 ### Quality Assurance (QA)
 
@@ -135,17 +135,17 @@ Quality Assurance is the implementation of structured methods of testing product
 
 ### Selenium
 
-An open source suite of software that provides a standardized api to itneract with the different types of browsers. Very popular in the testing of websites and many other tools have been build on top of Selenium.
+Selenium is an open source suite of software that provides a standardized API to interact with different browsers. It is very popular for testing websites, and many other tools have been build on top of Selenium.
 
 ### Selenium grid
 
-A configuration of a Selenium controller and Selenium Nodes that provide a collection of browsers that tests can utilize. The controller provides the best matching browser for tests depening on what it has avaialble. 
+The Selenium grid is a configuration that includes a Selenium controller and Selenium Nodes, which provide a collection of browsers that can run tests for you. The controller provides the best matching browser for tests depending on what it has available. 
 
-Altough setting this up can be complex, it can also be as simple as a singe docker compose file.
+Although setting up the Selenium grid can be complex, it can also be as brief as a single Docker compose file.
 
 ### Source Control
 
-Source control, also known as version control, is change management for sets of information like source code and documents. Source control tools like Git allow individuals or groups of people to make and keep track of changes to data and resources, merge and resolve conflicting changes, and reverse or revert changes if needed.
+Source control, also known as version control, is change management for sets of information like source code and documents. Source control tools like [Git](#git) allow individuals or groups of people to make and keep track of changes to data and resources, merge and resolve conflicting changes, and reverse or revert changes if needed.
 
 Distributed version control is a kind of source control where everyone working on a project has a complete copy of it mirrored on their own computer as well as a complete history of its changes.
 
@@ -155,19 +155,19 @@ Distributed version control is a kind of source control where everyone working o
 
 ### Test-Driven Development
 
-Introduced around 2000, this practice aimed to prevent developers from building incorrect code. The idea is that the developer writes tests before they write code in an effort to ensure that the code works according the the expectations that the developer has. 
+The practice of Test-Driven Development was introduced around the year 2000 to prevent developers from building incorrect code. The idea is that the developer writes tests before they write code in an effort to ensure that the code works according the developer's expectations. 
 
-This is different from BDD as the tests are written by the developer not in collaboration with the team.
+Test-Driven Development is different from Behavior-Driven Development, because the tests in TDD are written by the developer and not in collaboration with the team like in BDD.
 
 ### Ubiquitous language
 
-A subset of English (or any language) where all the works have a clear meaning understood by the people that work on the domain. This will be a tiny set of words relative to English, without synonims and few adjectives. 
+A ubiquitous language is a subset of English (or any language) where all the words have a clear meaning understood by the people who work on the domain. In practice, a ubiquitous language will contain a tiny set of words relative to English, without synonyms and with few adjectives. 
 
-The goal is to ensure that there is clarity in what is being communicated in this language, without any ambiguity. Examples where you would find ubiquitous langauge in real life are rules & regulations and work orders.
+The goal of a ubiquitous language is to ensure that the people using it have clarity in their communications, without any ambiguity. Some examples where you might find ubiquitous language in the workplace are rules, regulations, and work orders.
 
 ### Variable
 
-In our context this is a named piece of data. Lets say there are two cats, Whiskers and Purrcival. If we want to communicate about these cats we don't want to keep saying first and second cat, so instead we refer to them by their name. This will allow us to refer to Whiskers.Coat.Color for the collor of the coat of whiskers whitout any ambiguity.   
+In code, a variable is a named piece of data. Let's say there are two cats: Whiskers and Purrcival. If we want to communicate about these specific cats, we don't want to keep saying first cat and second cat, so instead we refer to them by their names. This will allow us to refer to Whiskers.Coat.Color (for example) to retrieve data attributes about Whiskers without any ambiguity as to which cat we are referencing.   
 
 ### Visual Studio
 
@@ -179,7 +179,7 @@ In our context this is a named piece of data. Lets say there are two cats, Whisk
 
 ### Web driver
 
-A piece of middle ware used in Selenium to interact with a specific web browser like Ghrome, Edge, etc.
+A web driver is a piece of middleware used in Selenium to interact with a specific web browser like Chrome or Edge.
 
 ### XPath (XML Path Language)
 
