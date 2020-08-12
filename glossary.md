@@ -43,7 +43,7 @@ When creating a Domain-Specific Language, it's important to be clear about what 
 
 ### Container
 
-A container is similar to a virtual machine. It bundles up code with its runtime and with everything else needed to run an application. Within the Possum Labs DSL project, containers make it possible to run multiple instances of browsers at the same time, which speeds up testing. (See the [Docker entry](#Docker) for more on containers.)
+A container is similar to a virtual machine. It bundles up code with its runtime and with everything else needed to run an application. Within the Possum Labs DSL project, containers make it possible to run multiple instances of browsers at the same time, which speeds up testing. (See the [Docker entry](#docker) for more on containers.)
 
 ### Context Map
 
